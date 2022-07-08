@@ -26,9 +26,9 @@ There are few features of Radio buttons listed below:
 
 |Features|Description|
 |:-:|:-:|
-|Enabled/Diabled|Can be enabled or disabled|
-|Enabled/Constant|By default functionality is enabled and can't be changed|
-|Disabled/Constant|By default functionality is disabled and can't be changed|
+|On-State|Can be enabled or disabled|
+|Off-State/Enabled|By default functionality is enabled and can't be changed|
+|Off-State/Disabled|By default functionality is disabled and can't be changed|
 |Customized|Can contain some icons or some texts as developers choice|
 |||
 
