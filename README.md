@@ -6,7 +6,7 @@ A Switch is like a circular space on a small line or inside a cylindrical  conta
 
 Below is an example of a switch:
 
-<img src="screenshots/Example.PNG" width="200" height="100">
+<img src="screenshots/switch_Example.PNG" width="200" height="100">
 
 Developers can develop their custom switch containing text, icon, animation etc.
 
@@ -18,7 +18,7 @@ Developers can develop their custom switch containing text, icon, animation etc.
 
 MaterialSwitches can be implemented in most of the commonly used applications where users need to either enable or disable any functionality. Below are some of the examples:
 
-<img src="screenshots/usecase1.PNG" width="231" height="258"> <img src="screenshots/usecase2.PNG" width="231" height="258">s
+<img src="screenshots/switch_usecase1.PNG" width="231" height="258"> <img src="screenshots/switch_usecase2.PNG" width="231" height="258">s
 
 ## 4. List of Features:
 
@@ -34,7 +34,7 @@ There are few features of Radio buttons listed below:
 
 Please refer below Image: 
 
-<img src="screenshots/featuresList.PNG" width="313" height="343">
+<img src="screenshots/switch_featuresList.PNG" width="313" height="343">
 
 ## 5. Download & Install:
 
@@ -75,7 +75,7 @@ Switch({
 })
 ```
 
-<img src="screenshots/defaultSwitches.png" width="517" height="250">
+<img src="screenshots/switch_defaultSwitches.png" width="517" height="250">
 
 4. Code for creating custom switch with icon
 
@@ -95,7 +95,7 @@ Switch({
 })
 ```
 
-<img src="screenshots/customizedSwitches.png" width="492" height="272">
+<img src="screenshots/switch_customizedSwitches.png" width="492" height="272">
 
 ## 7. Library Features:
 
@@ -135,7 +135,7 @@ In above code one switch was created whose all attributes values were resetted t
 
 ***Screenshot:***
 
-<img src="screenshots/feature1.gif" width="246" height="460">
+<img src="screenshots/switch_feature1.gif" width="246" height="460">
 
 <br>
 
@@ -179,7 +179,7 @@ In above code one customized switch was created whose all attributes values were
 
 ***Screenshot:***
 
-<img src="screenshots/feature2.gif" width="246" height="460">
+<img src="screenshots/switch_feature2.gif" width="246" height="460">
 
 ## 8. Conclusion:
 This library is for using toggle switches that can be customized based on colors, an icon passed by the user and also be set to disabled or On/Off state.
