@@ -36,34 +36,35 @@ Please refer below Image:
 
 <img src="screenshots/switch_featuresList.PNG" width="313" height="343">
 
-## 5. Download & Install:
+## 5. Usage Instructions:
 
-Install using npm: 
+### 1. Add dependencies:
+
+Add following to the dependencies in package.json file in entry folder of your project:
+
+```json
+{
+    "dependencies": {
+    "@ohos/material-switch": "file:../materialswitch"
+  }
+}
 ```
-npm i @ohos/material-switch
-```
 
-Details about OpenHarmony NPM environment configuration, click [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md). 
+### 2. Import files:
 
-<hr/>
-
-## 6. Usage Instructions:
-
-1. Import files and code dependencies
-
-```
+```ts
 import { Switch, SwitchModel }  from "@ohos/material-switch"
 ```
 
-2. Initialize switch model data
+### 3. Initialize switch model data
 
-```
+```ts
 private model: SwitchModel.Model = new SwitchModel.Model();
 ```
 
-3. Code for creating default switch
+### 4. Code for creating default switch
 
-```
+```ts
 this.model.reset()
 
 Switch({
@@ -77,9 +78,9 @@ Switch({
 
 <img src="screenshots/switch_defaultSwitches.png" width="517" height="250">
 
-4. Code for creating custom switch with icon
+### 5. Code for creating custom switch with icon
 
-```
+```ts
     this.model.reset()
     this.model.setSwitchId(1)
     this.model.setWithIcon(true)
@@ -97,7 +98,7 @@ Switch({
 
 <img src="screenshots/switch_customizedSwitches.png" width="492" height="272">
 
-## 7. Library Features:
+## 6. Library Features:
 
 ### Feature-1: 
 
@@ -105,7 +106,7 @@ Switch({
 
 ***Code Snippet:***
 
-```
+```ts
 updateModelForFirst() {
     this.switchModel1.reset()
     this.switchModel1.setSwitchId(1)
@@ -145,7 +146,7 @@ In above code one switch was created whose all attributes values were resetted t
 
 ***Code Snippet:***
 
-```
+```ts
 updateModelForFourth() {
     this.switchModel4.reset()
     this.switchModel4.setSwitchId(4)
@@ -181,8 +182,8 @@ In above code one customized switch was created whose all attributes values were
 
 <img src="screenshots/switch_feature2.gif" width="246" height="460">
 
-## 8. Conclusion:
+## 7. Conclusion:
 This library is for using toggle switches that can be customized based on colors, an icon passed by the user and also be set to disabled or On/Off state.
 
-## 9. Code Contribution:
+## 8. Code Contribution:
 If you find any problems during usage, you can submit an [Issue](https://github.com/Applib-OpenHarmony/MaterialSwitch/issues) to us. Of course, we also welcome you to send us [PR](https://github.com/Applib-OpenHarmony/MaterialSwitch/pulls).
